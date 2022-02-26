@@ -20,8 +20,6 @@ class Details extends Component {
       return (<h2>Loading</h2>);
     }
     const { animal, breed, description, city, state, name, images } = this.state;
-
-    throw new Error("It is error")
     return (
       <div className="details">
         <Carousel images={images} />
